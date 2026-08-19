@@ -1,6 +1,6 @@
 # langchain_multi_agent_research
 
-conda create -n langagent python=3.14 -y
+conda create -n langagent python=3.11 -y
 
 conda activate langagent
 

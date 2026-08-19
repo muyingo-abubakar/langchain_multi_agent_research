@@ -1,5 +1,6 @@
-from src.tools.tools import web_search
+from src.tools.tools import web_search, scrape_url
 
-web_search("who is the founder of Grok?")
 
+result = web_search.invoke(
+    "What is the latest news on using AI in business setup")
 print(result)
